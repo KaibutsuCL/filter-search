@@ -1,2 +1,2 @@
-# filter-search
-A simple filter search using html css and javascript
+# Filter Search
+A simple filter search using **HTML CSS** and **Javascript**
