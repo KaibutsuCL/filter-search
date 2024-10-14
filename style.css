@@ -15,9 +15,9 @@ body {
 main {
     display: flex;
     padding-top: 4rem;
+    padding-bottom: 4rem;
     justify-content: center;
-    height: calc(65vh);
-    overflow: auto;
+    height: calc(75vh - 10vh);
 }
 
 .search-box {
@@ -57,7 +57,8 @@ input {
 
 .results {
     max-height: 20rem;
-    overflow-y: auto;
+    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .results ul {
@@ -67,6 +68,7 @@ input {
     padding: 0;
     margin: 0;
     gap: 0.25rem;
+    overflow-y: hidden;
 }
 
 .results ul li {
@@ -81,9 +83,9 @@ input {
 }
 
 footer {
-    padding-top: 130px;
-    position: sticky;
-    bottom: 0;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
     justify-content: end;
 }
 
